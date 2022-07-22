@@ -1,0 +1,8 @@
+<?php
+
+namespace Modules\Core\Patterns\Solid\OCP;
+
+interface GenericEncoderFactoryConfigInterface
+{
+    public function addEncoder(string $format, callable $factory):void;
+}
